@@ -34,7 +34,7 @@ pipeline {
         extendedChoice(
                 name: 'Layers',
                 multiSelectDelimiter: ',',
-                description: 'Common Infrastructure to Deploy',
+                description: 'Testing',
                 type: 'PT_CHECKBOX',
                 value:'networking,securitygroups,iam',
                 defaultValue: 'networking',
